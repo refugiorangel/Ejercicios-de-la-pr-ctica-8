@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+	int a,b;
+	printf("Ingresa los dos números\n");
+	scanf("%d", &a);
+	scanf("%d", &b);
+	(a<b) ?
+		printf("El primer número %d es menor que el segundo %d\n",a, b)
+		:
+		printf("El segundo número %d es menor que el primero %d\n",b, a);
+ 	return 0;
+}
